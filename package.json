@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Test Desc 1",
+  "main": "index.js",
+  "scripts": {
+    "copy": "node ./add-from-template-script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KupinFB/test-eldar-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KupinFB/test-eldar-project/issues"
+  },
+  "homepage": "https://github.com/KupinFB/test-eldar-project#readme",
+  "dependencies": {
+    "fs-extra": "^11.1.0"
+  }
+}
