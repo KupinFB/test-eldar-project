@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/KupinFB/test-eldar-project#readme",
   "dependencies": {
-    "fs-extra": "^11.1.0"
+    "fs-extra": "^11.1.0",
+    "mustache": "^4.2.0"
   }
 }
