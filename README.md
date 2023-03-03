@@ -17,6 +17,7 @@ interface IGetTemplateOptions {
 interface ITemplate {
     name: string;
     fullPath: string;
+    defaultVariableValues: { [key: string]: string };
 }
 
 interface ICreateFromTemplateOptions {

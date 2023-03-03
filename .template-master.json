@@ -1,4 +1,4 @@
 {
-    "defaultVariableValues": "./templates1",
+    "templatesFolderPath": "./templates",
     "engine": ""
 }

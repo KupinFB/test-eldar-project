@@ -1,0 +1,11 @@
+{
+    "name": "asdasd",
+    "defaultVariableValues": {
+        "componentName": "Some name"
+    },
+    "dialogs": [{
+        "type": "text-input",
+        "variable": "someOther",
+        "question": "Enter component name:"
+    }]
+}
