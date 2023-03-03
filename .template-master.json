@@ -1,3 +1,4 @@
 {
-    defaultVariableValues: './templates1'
+    "defaultVariableValues": "./templates1",
+    "engine": ""
 }
