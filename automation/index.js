@@ -13,9 +13,16 @@ function makeDir(path, name) {
   fs.mkdirSync(dir, { recursive: true });
   return dir;
 }
+
 function createFromTemplate(params) {
   let path = makeDir(params.targetPath, params.variables.componentName);
-  fs.copySync(params.sourcePath, path);
+  
+  fs.copySync(params.sourcePath, path, {
+    filter: function(src) {
+      return !/manifest\.json$/i.test(src);
+    }
+  });
+  
   renameFileName(params.variables.componentName, path);
   renameFileInside(params.variables.sayString, path);
 }

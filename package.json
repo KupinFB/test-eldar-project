@@ -21,7 +21,7 @@
     "fs-extra": "^11.1.0",
     "mustache": "^4.2.0"
   },
-  "template-master": {
+  "templateMaster": {
     "templatesFolderPath": "./templates2"
   }
 }
